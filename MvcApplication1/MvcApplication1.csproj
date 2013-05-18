@@ -1429,7 +1429,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="InFastructurer\" />
     <Folder Include="Uploadfile\userfiles\" />
   </ItemGroup>
   <ItemGroup>
