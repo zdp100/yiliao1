@@ -18,8 +18,8 @@ namespace MvcApplication1.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.news = db.NewsModels.OrderBy(s => s.PubDate).Take(10).ToList();
-            var model= db.DoctorsModels.OrderBy(s => s.DoctorID).Take(5);
+            ViewBag.news = db.NewsModels.OrderBy(s => s.PubDate).Take(11).ToList();
+            var model= db.DoctorsModels.OrderBy(s => s.DoctorID).Take(4);
 
             //var img = db.HospitalImagesModels.OrderByDescending(s => s.ImageID).Take(9).Select(m => new { ImageID = m.ImageID, ImageUrl = m.ImageUrl }).ToList();
             var img = db.HospitalImagesModels.OrderByDescending(s => s.ImageID).Take(9).ToList();
